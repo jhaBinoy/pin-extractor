@@ -88,10 +88,11 @@ def extract_pin_value(decoded_string):
 
 # --- Main Streamlit execution ---
 if __name__ == "__main__":
-    st.title("VIEWSTATE PIN Extractor")
+    st.title("Welcome to PIN Generator")
     st.markdown("""
-        This app extracts the 6-digit PIN from a Base64-encoded `__VIEWSTATE` value
-        found in an HTML input string.
+        T 🎉 **Let's make some magic happen!** 🎉
+    
+    Get ready for an awesome experience.
     """)
 
     html_input = st.text_area("Paste your HTML string here:", height=200)
